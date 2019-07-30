@@ -17,5 +17,5 @@ This course covers ten topics
 
 | Date          | Topic | Location | Slides|
 |---------------|-------|----------|-------|
-| Sept. 1|Robust PCA|TBA| TBA|-|
+| Sept. 1|Robust PCA|TBA|-|
 
