@@ -1,18 +1,7 @@
 # Data Science and Matrix Optimization
 
 ## About the Course
-
-Data science is a "concept to unify statistics, data analysis, machine learning and their related methods" in order to "understand and analyze actual phenomena" with data [^1] .
-
-
-
-[^1]: Hayashi, Chikio (1 January 1998). ["What is Data Science? Fundamental Concepts and a Heuristic Example"](https://www.springer.com/book/9784431702085) 
-
-
-
-
-
-We live in the era of big data. With 
+Data science is a "concept to unify statistics, data analysis, machine learning and their related methods" in order to "understand and analyze actual phenomena" with data<sup>[1](#myfootnote1)</sup>.  With the development of the technologies of data collection and storage, big data emerges from various fields.   It brings great opportunities for researchers. Many algorithms have been proposed , and most of them invovle intensive matrix optimization techniques.  This course covers ten important topics of “Data Science” (one topic per week).  It is intended to teach mathematical models, matrix optimization models, algorithms and applications related to ten basic problems from practical problems and real-world data. This course is designed for doctoral, postgraduate and upper-level undergraduate students in all majors.
 
  1. Robust PCA
  2. Non-negative Matrix Factorization ([slides](./course_files/lecture_slides/nmf.pdf))
@@ -58,3 +47,5 @@ Mathematical Analysis, Linear Algebra
 
 If you have any comments, questions or suggestions about the material, please contact [messcode](zhanchihao11@outlook.com).
 
+---
+<a name="myfootnote1">1</a> . Hayashi, Chikio (1 January 1998). ["What is Data Science? Fundamental Concepts and a Heuristic Example"](https://www.springer.com/book/9784431702085)
