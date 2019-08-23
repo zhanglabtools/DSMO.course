@@ -45,8 +45,8 @@ Mathematical Analysis, Linear Algebra
 - Guan, N., Tao, D., Luo, Z., & Yuan, B. (2012). NeNMF: An optimal gradient method for nonnegative matrix factorization. *IEEE Transactions on Signal Processing*, *60*(6), 2882-2898.
 
 ##  Contact
-
 If you have any comments, questions or suggestions about the material, please contact zhangchihao11@outlook.com
+
 ---
 <a name="myfootnote1">1</a> . Hayashi, Chikio (1 January 1998). ["What is Data Science? Fundamental Concepts and a Heuristic Example"](https://www.springer.com/book/9784431702085)
 
