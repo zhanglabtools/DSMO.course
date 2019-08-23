@@ -46,7 +46,7 @@ Mathematical Analysis, Linear Algebra
 
 ##  Contact
 
-If you have any comments, questions or suggestions about the material, please contact [messcode]( zhangchihao11@outlook.com ).
+If you have any comments, questions or suggestions about the material, please contact @messcode <zhangchihao11@outlook.com >
 
 ---
 <a name="myfootnote1">1</a> . Hayashi, Chikio (1 January 1998). ["What is Data Science? Fundamental Concepts and a Heuristic Example"](https://www.springer.com/book/9784431702085)
