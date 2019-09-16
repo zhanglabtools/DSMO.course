@@ -72,20 +72,11 @@ on Optimization, 21(1), 57-81.
 ##  Matrix Completion
 
 ### Software 
-- [SVT library](http://svt.stanford.edu/code.html) is a library written with matlib by [Emmanuel Candès](http://statweb.stanford.edu/~candes/) and Stephen Becker for *Exact Matrix Completion*. The objective can be stated as,
-$$
-min_{X}||X||_{*}\\
-s.t. X_{ij} = M_{ij}
-$$
-The algorithm is described in the paper [A singular value thresholding algorithm for matrix completion](http://statweb.stanford.edu/~candes/papers/SVT.pdf).
+- [SVT library](http://svt.stanford.edu/code.html) is a library written with matlib by [Emmanuel Candès](http://statweb.stanford.edu/~candes/) and Stephen Becker for *Exact Matrix Completion*. The algorithm is described in the paper [A singular value thresholding algorithm for matrix completion](http://statweb.stanford.edu/~candes/papers/SVT.pdf).
 
 - [Soft-Impute](stat.columbia.edu/~rahulm/software.html) is a library for Approximate nuclear norm minimization written with matlib and R.
 
-- [PMF library](http://www.cs.toronto.edu/~rsalakhu/BPMF.html) is a library for probabilistic matrix factorization by Ruslan Salakhutdinov with matlab. The objective can be stated as,  
-$$
-min_{W,H}||X-WH^{T}||_F^{2}+\lambda_{1} ||W||_{F}^{2}+\lambda_{2} ||H||_{F}^{2} 
-$$
-which is also the most common optimization objective.
+- [PMF library](http://www.cs.toronto.edu/~rsalakhu/BPMF.html) is a library for probabilistic matrix factorization by Ruslan Salakhutdinov with matlab. The objective is also the most common optimization objective.
 
 - [GCMC](https://github.com/RyanLu32/GCMC) is python library for [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
 
