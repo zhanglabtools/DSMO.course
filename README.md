@@ -6,7 +6,7 @@ Data science is a "concept to unify statistics, data analysis, machine learning 
 The ten topics and the corresponding material are as follows:
  1. **Robust PCA**  [material](#Robust-Principal-Component-Analysis) [slides](./course_files/lecture_slides/RobustPCA.pdf)
  2. **Non-negative Matrix Factorization** [material](#Nonnegative-Matrix-Factorization) [slides](./course_files/lecture_slides/NMF.pdf)
-  3. **Matrix Completion** 
+  3. **Matrix Completion** [material](#Matrix-Completion) [slides](./course_files/lecture_slides/MatrixCompletion.pdf)
   4. **Sparse Coding**
   5. **Sparse Sensing**
   6. **Subspace Clustering**
