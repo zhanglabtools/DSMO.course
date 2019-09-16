@@ -69,6 +69,40 @@ on Optimization, 21(1), 57-81.
 - Wang, Y. X., & Zhang, Y. J. (2012). Nonnegative matrix factorization: A comprehensive review. *IEEE Transactions on Knowledge and Data Engineering*, *25*(6), 1336-1353.
 - Guan, N., Tao, D., Luo, Z., & Yuan, B. (2012). NeNMF: An optimal gradient method for nonnegative matrix factorization. *IEEE Transactions on Signal Processing*, *60*(6), 2882-2898.
 
+##  Matrix Completion
+
+### Software 
+- [SVT library](http://svt.stanford.edu/code.html) is a library written with matlib by [Emmanuel Candès](http://statweb.stanford.edu/~candes/) and Stephen Becker for *Exact Matrix Completion*. The objective can be stated as,
+$$
+min_{X}||X||_{*}\\
+s.t. X_{ij} = M_{ij}
+$$
+The algorithm is described in the paper [A singular value thresholding algorithm for matrix completion](http://statweb.stanford.edu/~candes/papers/SVT.pdf).
+
+- [Soft-Impute](stat.columbia.edu/~rahulm/software.html) is a library for Approximate nuclear norm minimization written with matlib and R.
+
+- [PMF library](http://www.cs.toronto.edu/~rsalakhu/BPMF.html) is a library for probabilistic matrix factorization by Ruslan Salakhutdinov with matlab. The objective can be stated as,  
+$$
+min_{W,H}||X-WH^{T}||_F^{2}+\lambda_{1} ||W||_{F}^{2}+\lambda_{2} ||H||_{F}^{2} 
+$$
+which is also the most common optimization objective.
+
+- [GCMC](https://github.com/RyanLu32/GCMC) is python library for [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263)
+
+###  Key papers
+- Candes,E.J and Recht,B. (2011). Exact matrix completion via convex optimization. *Foundations of Computational mathematics*, *9*(6), 717.
+- Cai, Jian-Feng and Candes, Emmanuel J and Shen, Zuowei. (2010). A singular value thresholding algorithm for matrix completion. *SIAM Journal on Optimization*, *20*(4), 1956–1982.
+- Mazumder, R., Hastie, T. J., and Tibshirani, R. (2010). Spectral regularization algorithms for learning large incomplete matrices.
+*Journal of machine learning research : JMLR*, *11*, 2287–2322.
+- SALAKHUTDINOV, R. (2008). Probabilistic matrix factorization. *Advances in Neural Information Processing Systems*, *20*, 1257–1264.
+- Zhou, Y., Wilkinson, D. M., Schreiber, R., and Rong, P. (2008). Large-scale parallel collaborative filtering for the netflix prize.
+*In Proc Intl Conf Algorithmic Aspects in Information Management*.
+- Kalofolias, V., Bresson, X., Bronstein, M., and Vandergheynst, P. (2014). Matrix completion on graphs. *Computer Science*.
+- Gemulla, R., Nijkamp, E., Haas, P. J., and Sismanis, Y. (2011). Large-scale matrix factorization with distributed stochastic gradient descent. *In Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, 69–77.
+- Rao, N., Yu, H.-F., Ravikumar, P., and Dhillon, I. S. (2015). Collaborative filtering with graph information: Consistency and scalable methods. *In Proceedings of the 28th International Conference on Neural Information Processing Systems*, *2*(15), 2107–2115.
+- Sun, D. L. and Fevotte, C. (2014). Alternating direction method of multipliers for non-negative matrix factorization with the beta-divergence. *In IEEE International Conference on Acoustics*.
+- Berg, Rianne van den and Kipf, Thomas N and Welling, Max. (2017). Graph convolutional matrix completion. *arXiv preprint* arXiv:1706.02263.
+
 ##  Contact
 If you have any comments, questions or suggestions about the material, please contact zhangchihao11@outlook.com
 
