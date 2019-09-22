@@ -7,7 +7,7 @@ The ten topics and the corresponding material are as follows:
  1. **Robust PCA**  [material](#Robust-Principal-Component-Analysis) [slides](./course_files/lecture_slides/RobustPCA.pdf)
  2. **Non-negative Matrix Factorization** [material](#Nonnegative-Matrix-Factorization) [slides](./course_files/lecture_slides/NMF.pdf)
   3. **Matrix Completion** [material](#Matrix-Completion) [slides](./course_files/lecture_slides/MatrixCompletion.pdf)
-  4. **Sparse Coding**
+  4. **Sparse Coding** [material](#Sparse-Coding)
   5. **Sparse Sensing**
   6. **Subspace Clustering**
   7. **Precision Matrix Estimation**
@@ -93,6 +93,27 @@ on Optimization, 21(1), 57-81.
 - Rao, N., Yu, H.-F., Ravikumar, P., and Dhillon, I. S. (2015). Collaborative filtering with graph information: Consistency and scalable methods. *In Proceedings of the 28th International Conference on Neural Information Processing Systems*, *2*(15), 2107–2115.
 - Sun, D. L. and Fevotte, C. (2014). Alternating direction method of multipliers for non-negative matrix factorization with the beta-divergence. *In IEEE International Conference on Acoustics*.
 - Berg, Rianne van den and Kipf, Thomas N and Welling, Max. (2017). Graph convolutional matrix completion. *arXiv preprint* arXiv:1706.02263.
+
+## Sparse Coding
+
+### Software
+- [*KSVD-Box v13*](http://www.cs.technion.ac.il/~ronrubin/Software/ksvdbox13.zip) : Implementation of the K-SVD and Approximate K-SVD dictionary training algorithms, and the K-SVD Denoising algorithm.
+-	[*OMP-Box v10*](http://www.cs.technion.ac.il/~ronrubin/Software/ompbox10.zip) : Implementation of the Batch-OMP and OMP-Cholesky algorithms for quick sparse-coding of large sets of signals.
+-	[*SparseLab*](http://www.cs.technion.ac.il/~ronrubin/Software/ompbox10.zip) is a library of Matlab routines for finding sparse solutions to underdetermined systems. 
+-	You can get more information about such software on [*Elad’s homepage*](http://www.cs.technion.ac.il/~ronrubin/Software/ompbox10.zip).
+
+###  Key papers
+- Olshausen, B. and Field, D. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. *Nature*, 381:607–609.
+- Aharon, M., Elad, M., and Bruckstein, A. (2006). K-svd: An algorithm for designing overcomplete dictionaries for sparse representation. *IEEE Transactions on signal processing*, *54*(11):4311–4322.
+- Daubechies, I., Defrise, M., and De Mol, C. (2004). An iterative thresholding algorithm for linear inverse problems with a sparsity constraint. *Communications on Pure and Applied Mathematics: A Journal Issued by the Courant Institute of Mathematical Sciences*, *57*(11):1413–1457.
+- Li, Y. and Osher, S. (2009). Coordinate descent optimization for l1 minimization with application to compressed sensing; a greedy algorithm. *Inverse Problems and Imaging*, *3*(3):487–503.
+- Gregor, K. and LeCun, Y. (2010). Learning fast approximations of sparse coding. *In Proceedings of the 27th International Conference on International Conference on Machine Learning*, pages 399–406. Omnipress.
+- Papyan, V., Romano, Y., Sulam, J., and Elad, M. (2017). Convolutional dictionary learning via local processing. *In Proceedings of the IEEE International Conference on Computer Vision*, pages 5296–5304.
+- Sulam, J., Papyan, V., Romano, Y., and Elad, M. (2018). Multilayer convolutional sparse modeling: Pursuit and dictionary learning.
+*IEEE Transactions on Signal Processing*, *66*(15):4090–4104.
+
+
+
 
 ##  Contact
 If you have any comments, questions or suggestions about the material, please contact zhangchihao11@outlook.com
