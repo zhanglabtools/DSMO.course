@@ -8,7 +8,7 @@ The ten topics and the corresponding material are as follows:
  2. **Non-negative Matrix Factorization** [material](#Nonnegative-Matrix-Factorization) [slides](./course_files/lecture_slides/NMF.pdf)
   3. **Matrix Completion** [material](#Matrix-Completion) [slides](./course_files/lecture_slides/MatrixCompletion.pdf)
   4. **Sparse Coding** [material](#Sparse-Coding) [slides](./course_files/lecture_slides/SparseCoding.pdf)
-  5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressiveSensing.pdf)
+  5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressedSensing.pdf)
   6. **Subspace Clustering**
   7. **Precision Matrix Estimation**
   8. **Nonlinear Manifold Learning**
