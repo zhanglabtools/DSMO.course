@@ -8,7 +8,7 @@ The ten topics and the corresponding material are as follows:
  2. **Non-negative Matrix Factorization** [material](#Nonnegative-Matrix-Factorization) [slides](./course_files/lecture_slides/NMF.pdf)
   3. **Matrix Completion** [material](#Matrix-Completion) [slides](./course_files/lecture_slides/MatrixCompletion.pdf)
   4. **Sparse Coding** [material](#Sparse-Coding) [slides](./course_files/lecture_slides/SparseCoding.pdf)
-  5. **Sparse Sensing**
+  5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressiveSensing.pdf)
   6. **Subspace Clustering**
   7. **Precision Matrix Estimation**
   8. **Nonlinear Manifold Learning**
@@ -112,6 +112,25 @@ on Optimization, 21(1), 57-81.
 - Sulam, J., Papyan, V., Romano, Y., and Elad, M. (2018). Multilayer convolutional sparse modeling: Pursuit and dictionary learning.
 *IEEE Transactions on Signal Processing*, *66*(15):4090–4104.
 
+## Sparse Sensing
+
+### Software
+- [*SparseLab*](http://sparselab.stanford.edu/) is a library of Matlab routines for finding sparse solutions to underdetermined systems. It not only aims to provide tools for sparse representation in a cohesive package to the research community, if also allows researchers in this area to publicly release the code accompanying their published papers.
+- [GPSR](http://www.lx.it.pt/~mtf/GPSR/)：Gradient Projection  for Sparse  Reconstruction a solver of gradient projection type, using special line search and termination techniques, gave faster solutions on our test problems than other techniques that had been proposed previously, including interior-point techniques.  A debiasing step based on the conjugate-gradient algorithm improves the results further.
+- [*MPTK*](http://mptk.irisa.fr/) The Matching Pursuit Tool Kit (MPTK) provides a fast implementation of the Matching Pursuit algorithm for the sparse decomposition of multichannel signals.
+- Reproducible Deep Compressive Sensing Collection of source code for deep learning-based compressive sensing (DCS) can be found [*here*](https://github.com/ngcthuong/Reproducible-Deep-Compressive-Sensing).
+
+### Key papers
+- Candes, E. and Tao, T. (2004). Near optimal signal recovery from random projections: Universal encoding strategies? *arXiv preprint math*/0410542.
+- Candes, E. and Tao, T. (2005). Decoding by linear programming. *arXiv preprint math*/0502327.
+- Candes, E. J., Romberg, J. K., and Tao, T. (2006). Stable signal recovery from incomplete and inaccurate measurements. *Communications on Pure and Applied Mathematics: A Journal Issued by the Courant Institute of Mathematical Sciences*, *59*(8):1207–1223.
+- Chen, S. S., Donoho, D. L., and Saunders, M. A. (2001). Atomic decomposition by basis pursuit. *SIAM review*, *43*(1):129–159.
+- Donoho, D. L. and Elad, M. (2003). Optimally sparse representation in general (nonorthogonal) dictionaries via l1 minimization. *Proceedings of the National Academy of Sciences*, *100*(5):2197–2202.
+- Duarte, M. F., Davenport, M. A., Takhar, D., Laska, J. N., Sun, T., Kelly, K. F., and Baraniuk, R. G. (2008). Single-pixel imaging via compressive sampling. *IEEE signal processing magazine*, *25*(2):83–91.
+- Ji, S., Xue, Y., Carin, L., et al. (2008). Bayesian compressive sensing. *IEEE Transactions on signal processing*, *56*(6):2346
+- Tropp, J. A. (2004). Greed is good: Algorithmic results for sparse approximation. *IEEE Transactions on Information theory*, *50*(10):2231–2242.
+- Wu, Y., Rosca, M., and Lillicrap, T. P. (2019). Deep compressed sensing. *CoRR*, abs/1905.06723
+- Xu, Z., Zhang, H., Wang, Y., Chang, X., and Liang, Y. (2010). L 1/2 regularization. *Science China Information Sciences*, *53*(6):1159–1169.
 
 
 
