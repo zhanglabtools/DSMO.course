@@ -9,7 +9,7 @@ The ten topics and the corresponding material are as follows:
   3. **Matrix Completion** [material](#Matrix-Completion) [slides](./course_files/lecture_slides/MatrixCompletion.pdf)
   4. **Sparse Coding** [material](#Sparse-Coding) [slides](./course_files/lecture_slides/SparseCoding.pdf)
   5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressedSensing.pdf)
-  6. **Subspace Clustering**
+  6. **Subspace Clustering** [material](#Subspace-Clustering) [slides](./course_files/lecture_slides/SubspaceClustering.pdf)
   7. **Precision Matrix Estimation**
   8. **Nonlinear Manifold Learning**
   9. **Manifold Alignment**
@@ -131,6 +131,30 @@ on Optimization, 21(1), 57-81.
 - Tropp, J. A. (2004). Greed is good: Algorithmic results for sparse approximation. *IEEE Transactions on Information theory*, *50*(10):2231–2242.
 - Wu, Y., Rosca, M., and Lillicrap, T. P. (2019). Deep compressed sensing. *CoRR*, abs/1905.06723
 - Xu, Z., Zhang, H., Wang, Y., Chang, X., and Liang, Y. (2010). L 1/2 regularization. *Science China Information Sciences*, *53*(6):1159–1169.
+
+##  Subspace Clustering
+
+### Software 
+
+- [SPARSE SUBSPACE CLUSTERING](http://vision.jhu.edu/code/) Sparce Subspace Clustering (SSC) is a sparse representation and spectral clustering based method for clustering a set of data points lying in a union of low-dimensional subspaces into their respective subspaces. Please visit the corresponding SSC research page for more information. Depending on how sparse representation is computed, there are two variances of SSC.
+- [LOW-RANK SUBSPACE CLUSTERING (LRSC)](http://vision.jhu.edu/code/) The code below is the low-rank subspace clustering code used in our experiments for our CVPR 2011 publication. We note that if your objective is subspace clustering, then you will also need some clustering algorithm. We found that spectral clustering from Ng, Jordan et. al. performed the best.
+- [LOW-RANK-REPRESENTATION](https://sites.google.com/site/guangcanliu/) is the code for low rank representation.
+4.	[DEEP-SUBSPACE-CLUSTERING](https://github.com/panji1990/Deep-subspace-clustering-networks) is a tensorflow implementation for our NIPS'17 paper: Pan Ji*, Tong Zhang*, Hongdong Li, Mathieu Salzmann, Ian Reid. Deep Subspace Clustering Networks. in NIPS'17.
+
+
+###  Key papers
+
+- Ehsan Elhamifar; René Vidal(2013) Sparse Subspace Clustering: Algorithm, Theory, and Applications IEEE Transactions on Pattern Analysis and Machine Intelligence ( Volume: 35 , Issue: 11 , Nov. 2013 )
+-	Canyi Lu; Jiashi Feng; Zhouchen Lin; Tao Mei; Shuicheng Yan(2019) Subspace Clustering by Block Diagonal Representation
+IEEE Transactions on Pattern Analysis and Machine Intelligence ( Volume: 41 , Issue: 2 , Feb. 1 2019 )
+-	Mahdi Soltanolkotabi, Ehsan Elhamifar and Emmanuel J. Candes(2013)
+Robust subspace clustering
+The Annals of Statistics 42(2) · January 2013
+-	Guangcan Liu, Zhouchen Lin and Yong Yu(2010) Robust Subspace Segmentation by Low-Rank Representation. Proceedings of the 27th International Conference on Machine Learning, Haifa, Israel, 2010.
+-	Can-Yi Lu, Hai Min, Zhong-Qiu Zhao, Lin Zhu, De-Shuang Huang, and Shuicheng Yan(2012) Robust and Efficient Subspace Segmentation via Least Squares Regression ECCV 2012
+-	Pan Ji, Tong Zhang, Hongdong Li, Mathieu Salzmann and Ian Reid(2017) Deep Subspace Clustering Networks
+31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA.
+-	Ulrike von Luxburg (2007) A Tutorial on Spectral Clustering
 
 
 
