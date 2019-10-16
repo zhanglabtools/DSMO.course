@@ -144,17 +144,15 @@ on Optimization, 21(1), 57-81.
 
 ###  Key papers
 
-- Ehsan Elhamifar; René Vidal(2013) Sparse Subspace Clustering: Algorithm, Theory, and Applications IEEE Transactions on Pattern Analysis and Machine Intelligence ( Volume: 35 , Issue: 11 , Nov. 2013 )
--	Canyi Lu; Jiashi Feng; Zhouchen Lin; Tao Mei; Shuicheng Yan(2019) Subspace Clustering by Block Diagonal Representation
-IEEE Transactions on Pattern Analysis and Machine Intelligence ( Volume: 41 , Issue: 2 , Feb. 1 2019 )
--	Mahdi Soltanolkotabi, Ehsan Elhamifar and Emmanuel J. Candes(2013)
-Robust subspace clustering
-The Annals of Statistics 42(2) · January 2013
--	Guangcan Liu, Zhouchen Lin and Yong Yu(2010) Robust Subspace Segmentation by Low-Rank Representation. Proceedings of the 27th International Conference on Machine Learning, Haifa, Israel, 2010.
--	Can-Yi Lu, Hai Min, Zhong-Qiu Zhao, Lin Zhu, De-Shuang Huang, and Shuicheng Yan(2012) Robust and Efficient Subspace Segmentation via Least Squares Regression ECCV 2012
--	Pan Ji, Tong Zhang, Hongdong Li, Mathieu Salzmann and Ian Reid(2017) Deep Subspace Clustering Networks
-31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA.
--	Ulrike von Luxburg (2007) A Tutorial on Spectral Clustering
+- Ehsan Elhamifar; René Vidal(2013) Sparse Subspace Clustering: Algorithm, Theory, and Applications. *IEEE Transactions on Pattern Analysis and Machine Intelligence* ( Volume: 35 , Issue: 11 , Nov. 2013 )
+-	Canyi Lu; Jiashi Feng; Zhouchen Lin; Tao Mei; Shuicheng Yan(2019). Subspace Clustering by Block Diagonal Representation.
+*IEEE Transactions on Pattern Analysis and Machine Intelligence* ( Volume: 41 , Issue: 2 , Feb. 1 2019 )
+-	Mahdi Soltanolkotabi, Ehsan Elhamifar and Emmanuel J. Candes(2013) Robust subspace clustering. *The Annals of Statistics*. *42*(2) · January 2013
+-	Guangcan Liu, Zhouchen Lin and Yong Yu(2010) Robust Subspace Segmentation by Low-Rank Representation. *Proceedings of the 27th International Conference on Machine Learning*, Haifa, Israel, 2010.
+-	Can-Yi Lu, Hai Min, Zhong-Qiu Zhao, Lin Zhu, De-Shuang Huang, and Shuicheng Yan(2012) Robust and Efficient Subspace Segmentation via Least Squares Regression. *ECCV* 2012
+-	Pan Ji, Tong Zhang, Hongdong Li, Mathieu Salzmann and Ian Reid(2017) Deep Subspace Clustering Networks.
+*31st Conference on Neural Information Processing Systems (NIPS 2017)*, Long Beach, CA, USA.
+-	Ulrike von Luxburg (2007) A Tutorial on Spectral Clustering.
 
 
 
