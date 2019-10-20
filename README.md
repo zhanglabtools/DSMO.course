@@ -10,7 +10,7 @@ The ten topics and the corresponding material are as follows:
   4. **Sparse Coding** [material](#Sparse-Coding) [slides](./course_files/lecture_slides/SparseCoding.pdf)
   5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressedSensing.pdf)
   6. **Subspace Clustering** [material](#Subspace-Clustering) [slides](./course_files/lecture_slides/SubspaceClustering.pdf)
-  7. **Precision Matrix Estimation**
+  7. **Precision Matrix Estimation** [material](#Precision-Matrix-Estimation) [slides](./course_files/lecture_slides/PrecisionEstimation.pdf)
   8. **Nonlinear Manifold Learning**
   9. **Manifold Alignment**
   10. **Tensor Factorization**
@@ -154,6 +154,30 @@ on Optimization, 21(1), 57-81.
 *31st Conference on Neural Information Processing Systems (NIPS 2017)*, Long Beach, CA, USA.
 -	Ulrike von Luxburg (2007) A Tutorial on Spectral Clustering.
 
+##  Precision Matrix Estimation
+
+### Software 
+
+- [*Graphical lasso*](https://cran.r-project.org/web/packages/glasso/): Estimation of a sparse inverse covariance matrix using a lasso (L1) penalty. Facilities are provided for estimates along a path of values for the regularization parameter.
+- [*QUIC*](https://bigdata.oden.utexas.edu/software/1035/): The QUadratic Inverse Covariance algorithm (latest release 1.1) implements the l1 regularized Gaussian maximum likelihood estimation of the inverse of a covariance matrix.
+- [*TIGER and CLIME*](https://cran.r-project.org/web/packages/flare/): R package flare provide the extension of these Lasso variants to sparse Gaussian graphical model estimation including TIGER and CLIME using either L1 or adaptive penalty.
+- [*Hub graphical lasso*](https://cran.r-project.org/web/packages/hglasso/): Implements the hub graphical lasso and hub covariance graph.
+- [*Joint graphical lasso*](https://cran.r-project.org/web/packages/JGL/): The Joint Graphical Lasso is a generalized method for estimating Gaussian graphical models/ sparse inverse covariance matrices/ biological networks on multiple classes of data.
+
+
+
+###  Key papers
+
+- Boyd, S., Parikh, N., Chu, E., Peleato, B., & Eckstein, J. (2011). Distributed optimization and statistical learning via the alternating direction method of multipliers. *Foundations and Trends in Machine learning*, 3(1), 1-122.
+- Danaher, P., Wang, P., & Witten, D. M. (2014). The joint graphical lasso for inverse covariance estimation across multiple classes. *Journal of the Royal Statistical Society: Series B (Statistical Methodology)*, 76(2), 373-397.
+- Friedman, J., Hastie, T., Höfling, H., & Tibshirani, R. (2007). Pathwise coordinate optimization. *The annals of applied statistics*, 1(2), 302-332.
+- Friedman, J., Hastie, T., & Tibshirani, R. (2008). Sparse inverse covariance estimation with the graphical lasso. *Biostatistics*, 9(3), 432-441.
+- Liu, H., & Wang, L. (2017). Tiger: A tuning-insensitive approach for optimally estimating gaussian graphical models. *Electronic Journal of Statistics*, 11(1), 241-294.
+- Mazumder, R., & Hastie, T. (2012). Exact covariance thresholding into connected components for large-scale graphical lasso. *Journal of Machine Learning Research*, 13(Mar), 781-794.
+- Meinshausen, N., & Bühlmann, P. (2006). High-dimensional graphs and variable selection with the lasso. *The annals of statistics*, 34(3), 1436-1462.
+- Tan, K. M., London, P., Mohan, K., Lee, S. I., Fazel, M., & Witten, D. (2014). Learning graphical models with hubs. *The Journal of Machine Learning Research*, 15(1), 3297-3331.
+- Cai, T., Liu, W., & Luo, X. (2011). A constrained ℓ 1 minimization approach to sparse precision matrix estimation. *Journal of the American Statistical Association*, 106(494), 594-607.
+- Zhang, T., & Zou, H. (2014). Sparse precision matrix estimation via lasso penalized D-trace loss. *Biometrika*, 101(1), 103-120.
 
 
 ##  Contact
