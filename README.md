@@ -136,10 +136,10 @@ on Optimization, 21(1), 57-81.
 
 ### Software 
 
-- [SPARSE SUBSPACE CLUSTERING](http://vision.jhu.edu/code/) Sparce Subspace Clustering (SSC) is a sparse representation and spectral clustering based method for clustering a set of data points lying in a union of low-dimensional subspaces into their respective subspaces. Please visit the corresponding SSC research page for more information. Depending on how sparse representation is computed, there are two variances of SSC.
-- [LOW-RANK SUBSPACE CLUSTERING (LRSC)](http://vision.jhu.edu/code/) The code below is the low-rank subspace clustering code used in our experiments for our CVPR 2011 publication. We note that if your objective is subspace clustering, then you will also need some clustering algorithm. We found that spectral clustering from Ng, Jordan et. al. performed the best.
-- [LOW-RANK-REPRESENTATION](https://sites.google.com/site/guangcanliu/) is the code for low rank representation.
-4.	[DEEP-SUBSPACE-CLUSTERING](https://github.com/panji1990/Deep-subspace-clustering-networks) is a tensorflow implementation for our NIPS'17 paper: Pan Ji*, Tong Zhang*, Hongdong Li, Mathieu Salzmann, Ian Reid. Deep Subspace Clustering Networks. in NIPS'17.
+- [*SPARSE SUBSPACE CLUSTERING*](http://vision.jhu.edu/code/) Sparce Subspace Clustering (SSC) is a sparse representation and spectral clustering based method for clustering a set of data points lying in a union of low-dimensional subspaces into their respective subspaces. Please visit the corresponding SSC research page for more information. Depending on how sparse representation is computed, there are two variances of SSC.
+- [*LOW-RANK SUBSPACE CLUSTERING (LRSC)*](http://vision.jhu.edu/code/) The code below is the low-rank subspace clustering code used in our experiments for our CVPR 2011 publication. We note that if your objective is subspace clustering, then you will also need some clustering algorithm. We found that spectral clustering from Ng, Jordan et. al. performed the best.
+- [*LOW-RANK-REPRESENTATION*](https://sites.google.com/site/guangcanliu/) is the code for low rank representation.
+4.	[*DEEP-SUBSPACE-CLUSTERING*](https://github.com/panji1990/Deep-subspace-clustering-networks) is a tensorflow implementation for our NIPS'17 paper: Pan Ji*, Tong Zhang*, Hongdong Li, Mathieu Salzmann, Ian Reid. Deep Subspace Clustering Networks. in NIPS'17.
 
 
 ###  Key papers
