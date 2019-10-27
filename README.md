@@ -11,7 +11,7 @@ The ten topics and the corresponding material are as follows:
   5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressedSensing.pdf)
   6. **Subspace Clustering** [material](#Subspace-Clustering) [slides](./course_files/lecture_slides/SubspaceClustering.pdf)
   7. **Precision Matrix Estimation** [material](#Precision-Matrix-Estimation) [slides](./course_files/lecture_slides/PrecisionEstimation.pdf)
-  8. **Nonlinear Manifold Learning**
+  8. **Nonlinear Manifold Learning**[material](#Nonlinear-Manifold-Learning) [slides](./course_files/lecture_slides/NonlinearManifoldLearning.pdf)
   9. **Manifold Alignment**
   10. **Tensor Factorization**
 
@@ -178,6 +178,32 @@ on Optimization, 21(1), 57-81.
 - Tan, K. M., London, P., Mohan, K., Lee, S. I., Fazel, M., & Witten, D. (2014). Learning graphical models with hubs. *The Journal of Machine Learning Research*, 15(1), 3297-3331.
 - Cai, T., Liu, W., & Luo, X. (2011). A constrained ℓ 1 minimization approach to sparse precision matrix estimation. *Journal of the American Statistical Association*, 106(494), 594-607.
 - Zhang, T., & Zou, H. (2014). Sparse precision matrix estimation via lasso penalized D-trace loss. *Biometrika*, 101(1), 103-120.
+
+
+
+## Nonlinear Manifold Learning
+
+### Software
+- [*scikit-learn*](https://scikit-learn.org/stable/modules/manifold.html): scikit-learn integrates several widely used manifold learning algorithms such as   Isomap,  Locally Linear Embedding,  Modified Locally Linear Embedding,  Hessian Eigenmapping, Spectral Embedding, Local Tangent Space Alignment, Multi-dimensional Scaling and t-SNE, except UMAP. 
+- [*t-SNE*](https://lvdmaaten.github.io/tsne/) : the author of t-SNE provides a lot of informations about t-SNE, including its various implementations such as Matlab, CUDA, python, Torch etc.
+- [*Distill t-SNE*](https://distill.pub/2016/misread-tsne/): the authors of this page  explores how t-SNE behaves in simple cases, we can learn to use it more effectively.
+- [*UMAP*](https://umap-learn.readthedocs.io/en/latest/) : the python package of UMAP implemented by the author of UMAP.
+
+
+###  Key papers
+- Ma, Y., & Fu, Y. (2011). *Manifold learning theory and applications*. CRC press.
+- Verma, N. (2008). *Mathematical advances in manifold learning*. preprint.
+- Cayton, L. (2005). *Algorithms for manifold learning. Univ*. of California at San Diego Tech. Rep, 12(1-17), 1.
+- Torgerson, W. S. (1952). *Multidimensional scaling: I. Theory and method*. Psychometrika, 17(4), 401-419.
+- Tenenbaum, J. B., De Silva, V., & Langford, J. C. (2000).  *A global geometric framework for nonlinear dimensionality reduction. science*, 290(5500), 2319-2323.
+- Roweis, S. T., & Saul, L. K. (2000).  *Nonlinear dimensionality reduction by locally linear embedding*. science, 290(5500), 2323-2326.
+- Belkin, M., & Niyogi, P. (2002). *Laplacian eigenmaps and spectral techniques for embedding and clustering*. In Advances in neural information processing systems (pp. 585-591).
+- Donoho, D. L., & Grimes, C. (2003). *Hessian eigenmaps: Locally linear embedding techniques for high-dimensional data. Proceedings of the National Academy of Sciences*, 100(10), 5591-5596.
+- Coifman, R. R., Lafon, S., Lee, A. B., Maggioni, M., Nadler, B., Warner, F., & Zucker, S. W. (2005). *Geometric diffusions as a tool for harmonic analysis and structure definition of data: Diffusion maps. Proceedings of the national academy of sciences*, 102(21), 7426-7431.
+- Hinton, G. E., & Roweis, S. T. (2003). *Stochastic neighbor embedding. In Advances in neural information processing systems* (pp. 857-864).
+- Maaten, L. V. D., & Hinton, G. (2008). *Visualizing data using t-SNE*.  Journal of machine learning research, 9(Nov), 2579-2605.
+- McInnes, L., Healy, J., & Melville, J. (2018). *Umap: Uniform manifold approximation and projection for dimension reduction*. arXiv preprint arXiv:1802.03426.
+
 
 
 ##  Contact
