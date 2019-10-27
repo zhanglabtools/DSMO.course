@@ -11,7 +11,7 @@ The ten topics and the corresponding material are as follows:
   5. **Sparse Sensing** [material](#Sparse-Sensing) [slides](./course_files/lecture_slides/CompressedSensing.pdf)
   6. **Subspace Clustering** [material](#Subspace-Clustering) [slides](./course_files/lecture_slides/SubspaceClustering.pdf)
   7. **Precision Matrix Estimation** [material](#Precision-Matrix-Estimation) [slides](./course_files/lecture_slides/PrecisionEstimation.pdf)
-  8. **Nonlinear Manifold Learning**[material](#Nonlinear-Manifold-Learning) [slides](./course_files/lecture_slides/NonlinearManifoldLearning.pdf)
+  8. **Nonlinear Manifold Learning** [material](#Nonlinear-Manifold-Learning) [slides](./course_files/lecture_slides/NonlinearManifoldLearning.pdf)
   9. **Manifold Alignment**
   10. **Tensor Factorization**
 
@@ -185,9 +185,9 @@ on Optimization, 21(1), 57-81.
 
 ### Software
 - [*scikit-learn*](https://scikit-learn.org/stable/modules/manifold.html): scikit-learn integrates several widely used manifold learning algorithms such as   Isomap,  Locally Linear Embedding,  Modified Locally Linear Embedding,  Hessian Eigenmapping, Spectral Embedding, Local Tangent Space Alignment, Multi-dimensional Scaling and t-SNE, except UMAP. 
-- [*t-SNE*](https://lvdmaaten.github.io/tsne/) : the author of t-SNE provides a lot of informations about t-SNE, including its various implementations such as Matlab, CUDA, python, Torch etc.
+- [*t-SNE*](https://lvdmaaten.github.io/tsne/): the author of t-SNE provides a lot of informations about t-SNE, including its various implementations such as Matlab, CUDA, python, Torch etc.
 - [*Distill t-SNE*](https://distill.pub/2016/misread-tsne/): the authors of this page  explores how t-SNE behaves in simple cases, we can learn to use it more effectively.
-- [*UMAP*](https://umap-learn.readthedocs.io/en/latest/) : the python package of UMAP implemented by the author of UMAP.
+- [*UMAP*](https://umap-learn.readthedocs.io/en/latest/): the python package of UMAP implemented by the author of UMAP.
 
 
 ###  Key papers
