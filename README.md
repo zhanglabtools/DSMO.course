@@ -207,12 +207,11 @@ on Optimization, 21(1), 57-81.
 ## Manifold Alignment
 
 ### Software
-+ The [**LRSLibrary**](https://github.com/andrewssobral/lrslibrary) provides a collection of low-rank and sparse decomposition algorithms in MATLAB. In the [RPCA](https://github.com/andrewssobral/lrslibrary/tree/master/algorithms/rpca) section, The MATLAB codes of Accelerated Proximal Gradient Method (APGM), the Exact Augmented Lagrange Multiplier(EALM) and the Inexact Augmented Lagrange Multiplier(IALM) can be available.
-+ The MATLAB code of the Alternating Splitting Augmented Lagrangian Method(ASALM) can be obtained [here](https://github.com/andrewssobral/lrslibrary/blob/947cd52bc27c616cab7a7a668d55b51e635553d4/algorithms/rpca/SPGL1/recreatePaperExperiment.m).
-
-+ [ADMIP](http://www2.ie.psu.edu/aybat/codes.html): Alternating Direction Method with Increasing Penalty(MATLAB code)
-
-+ The MATLAB code of Low-rank Matrix Fitting[(LMafit)](http://lmafit.blogs.rice.edu/)
+- *CCA (Canonical Correlation Analysis)*:  The Python package `sklearn` has some functions that perform cross-decomposition between two data matrix, including  [sklearn.cross_decomposition.CCA](http://lijiancheng0614.github.io/scikit-learn/modules/generated/sklearn.cross_decomposition.CCA.html), [sklearn.cross_decomposition.PLSSVD](http://lijiancheng0614.github.io/scikit-learn/modules/generated/sklearn.cross_decomposition.PLSSVD.html). The latter suits better when there are more 'features' than 'observations', i.e. N < min{p, q}
+- *KEMA (Kernel Manifold Alignment)*: [GitHub](https://github.com/dtuia/KEMA). This demo illustrates the performance of the semisupervised kernel manifold alignment (KEMA) in several toy examples.
+- [*PyTorch-ADDA*](https://github.com/corenel/pytorch-adda): A PyTorch implementation for 'Adversarial Discriminative Domain Adaptation'.
+- *Transfer Learning Tutorial <迁移学习简明手册>*, you can download it [here](https://github.com/jindongwang/transferlearning-tutorial).
+- [*jindongwang/transferlearning*](https://github.com/jindongwang/transferlearning): Everything about Transfer Learning and Domain Adaptation.
 
 ### Key papers
 + Chang, W. and Mahadevan, S. (2009). Manifold alignment without correspondence. *In International Jont Conference on Artiﬁcal Intelligence*.
