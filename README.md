@@ -12,7 +12,7 @@ The ten topics and the corresponding material are as follows:
   6. **Subspace Clustering** [material](#Subspace-Clustering) [slides](./course_files/lecture_slides/SubspaceClustering.pdf)
   7. **Precision Matrix Estimation** [material](#Precision-Matrix-Estimation) [slides](./course_files/lecture_slides/PrecisionEstimation.pdf)
   8. **Nonlinear Manifold Learning** [material](#Nonlinear-Manifold-Learning) [slides](./course_files/lecture_slides/NonlinearManifoldLearning.pdf)
-  9. **Manifold Alignment**
+  9. **Manifold Alignment** [material](#Manifold-Alignment) [slides](./course_files/lecture_slides/ManifoldAlignment.pdf)
   10. **Tensor Factorization**
 
 ##  Prerequisites
@@ -203,6 +203,28 @@ on Optimization, 21(1), 57-81.
 - Hinton, G. E., & Roweis, S. T. (2003). *Stochastic neighbor embedding. In Advances in neural information processing systems* (pp. 857-864).
 - Maaten, L. V. D., & Hinton, G. (2008). *Visualizing data using t-SNE*.  Journal of machine learning research, 9(Nov), 2579-2605.
 - McInnes, L., Healy, J., & Melville, J. (2018). *Umap: Uniform manifold approximation and projection for dimension reduction*. arXiv preprint arXiv:1802.03426.
+
+## Manifold Alignment
+
+### Software
++ The [**LRSLibrary**](https://github.com/andrewssobral/lrslibrary) provides a collection of low-rank and sparse decomposition algorithms in MATLAB. In the [RPCA](https://github.com/andrewssobral/lrslibrary/tree/master/algorithms/rpca) section, The MATLAB codes of Accelerated Proximal Gradient Method (APGM), the Exact Augmented Lagrange Multiplier(EALM) and the Inexact Augmented Lagrange Multiplier(IALM) can be available.
++ The MATLAB code of the Alternating Splitting Augmented Lagrangian Method(ASALM) can be obtained [here](https://github.com/andrewssobral/lrslibrary/blob/947cd52bc27c616cab7a7a668d55b51e635553d4/algorithms/rpca/SPGL1/recreatePaperExperiment.m).
+
++ [ADMIP](http://www2.ie.psu.edu/aybat/codes.html): Alternating Direction Method with Increasing Penalty(MATLAB code)
+
++ The MATLAB code of Low-rank Matrix Fitting[(LMafit)](http://lmafit.blogs.rice.edu/)
+
+### Key papers
++ Chang, W. and Mahadevan, S. (2009). Manifold alignment without correspondence. *In International Jont Conference on Artiﬁcal Intelligence*.
++ Chang, W. and Mahadevan, S. (2011). Heterogeneous domain adaptation using manifold alignment. *In International Joint Conference on Ijcai*.
++ Cui, Z., Chang, H., Shan, S., and Chen, X. (2014). Generalized unsupervised manifold alignment. *Advances in Neural Information Processing Systems*, *3*:2429–2437.
++ Devis, T., Gustau, C.-V., and Zhaohong, D. (2016). Kernel manifold alignment for domain adaptation. *Plos One*, *11*(2):e0148655.
++ Ham, J. H. D. D. L. L. K. S. (2003). Learning high dimensional correspondences from low dimensional manifolds. *Proceedings of the Twentieth International Conference on Machine Learning(ICML-2003)*.
++ Hong, D., Yokoya, N., Ge, N., and Chanussot, J.and Zhu, X. X. (2019). Learnable manifold alignment (lema): a semi-supervised cross-modality learning framework for land cover and land use classiﬁcation. *ISPRS Journal of Photogrammetry and Remote Sensing*, 147:193–205.
++ HOTELLING, H. (1936). RELATIONS BETWEEN TWO SETS OF VARIATES*. *Biometrika*, *28*(3-4):321–377.
++ Pei, Y., Huang, F., Shi, F., and Zha, H. (2012). Unsupervised image matching based on manifold alignment. *IEEE Transactions on Pattern Analysis & Machine Intelligence*, *34*(8):1658.
++ Tsai, J. and Chien, J. (2017). Adversarial domain separation and adaptation. *In 2017 IEEE 27th International Workshop on Machine Learning for Signal Processing (MLSP)*, pages 1–6.
++ Wang, C. (2010). Heterogeneous domain adaptation using manifold alignment. *Ijcai*, pages 1541–1546.
 
 
 
