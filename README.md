@@ -13,7 +13,7 @@ The ten topics and the corresponding material are as follows:
   7. **Precision Matrix Estimation** [material](#Precision-Matrix-Estimation) [slides](./course_files/lecture_slides/PrecisionEstimation.pdf)
   8. **Nonlinear Manifold Learning** [material](#Nonlinear-Manifold-Learning) [slides](./course_files/lecture_slides/NonlinearManifoldLearning.pdf)
   9. **Manifold Alignment** [material](#Manifold-Alignment) [slides](./course_files/lecture_slides/ManifoldAlignment.pdf)
-  10. **Tensor Factorization**
+  10. **Tensor Factorization** [material](#Tensor-Factorization) [slides](./course_files/lecture_slides/TensorFactorization.pdf)
 
 ##  Prerequisites
 
@@ -226,6 +226,13 @@ on Optimization, 21(1), 57-81.
 + Wang, C. (2010). Heterogeneous domain adaptation using manifold alignment. *Ijcai*, pages 1541–1546.
 
 
+##  Tensor Factorization
+
+### No software used this chapter, lucky guys!
+
+###  Key papers
+
+- Nicholas D. Sidiropoulos. (2017). Tensor Decomposition for Signal Processing and Machine Learning. *IEEE Transactions on Signal Processing*, *65*(13), 3551-3582.
 
 ##  Contact
 If you have any comments, questions or suggestions about the material, please contact zhangchihao11@outlook.com
