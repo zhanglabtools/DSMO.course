@@ -78,7 +78,7 @@ on Optimization, 21(1), 57-81.
 
 - [*PMF library*](http://www.cs.toronto.edu/~rsalakhu/BPMF.html) is a library for probabilistic matrix factorization by Ruslan Salakhutdinov with matlab. The objective is also the most common optimization objective in matrix factorization.
 
-- [*GCMC*](https://github.com/RyanLu32/GCMC) is python library for [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263).
+- [*GCMC*](https://github.com/riannevdberg/gc-mc) is python library for [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263).
 
 ###  Key papers
 - Candes,E.J and Recht,B. (2011). Exact matrix completion via convex optimization. *Foundations of Computational mathematics*, *9*(6), 717.
